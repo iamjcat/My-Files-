@@ -1,0 +1,53 @@
+﻿/* Generic Stylesheet with h1,h2,h3, body and p taggs defined */
+
+
+ body { 
+    font-family: Georgia, "Times New Roman", Times, serif; /* choose font names from http://www.w3schools.com/cssref/css_websafe_fonts.asp */
+    font-size: 14px; /* change the number up to make bigger and down to make smaller */
+    color: #000000; /* Golours see http://www.w3schools.com/cssref/css_colornames.asp */
+	min-height: 100%;
+    margin: 0;
+	} 
+h1 { 
+    font-family: Georgia, "Times New Roman", Times, serif; 
+	text-align:center; /* replace center with right, left or justify */
+    font-size: 50px;  /* change the number up to make bigger and down to make smaller */
+    color: #595959;   /* Golours see http://www.w3schools.com/cssref/css_colornames.asp */
+	}
+h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+    font-size: 30px;
+    color: #000000;
+	}
+h3  { 
+	font-family: courier,"Times New Roman",serif; 
+	text-align:center;
+	font-size: 20px;
+	text-decoration: underline; /* This is where you can add underline , strikethrouh etc*/
+	color: #000000;
+	}
+	
+p {
+    font-family: Georgia, "Times New Roman", Times, serif; /* choose font names from http://www.w3schools.com/cssref/css_websafe_fonts.asp */
+    font-size: 14px; /* change the number up to make bigger and down to make smaller */
+    color: #000000; /* Golours see http://www.w3schools.com/cssref/css_colornames.asp */
+    }
+html {
+    min-height: 100%;
+    margin: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #70bg32;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( white, grey);
+    background: -moz-linear-gradient( white, grey);
+    background: -ms-linear-gradient( white, grey);
+    background: -o-linear-gradient( white, grey);
+    background: linear-gradient( white, grey);
+    }
+
+
+
