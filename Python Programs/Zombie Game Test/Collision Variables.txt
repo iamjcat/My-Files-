@@ -1,0 +1,1846 @@
+						###FROM LEFT TO RIGHT###
+
+
+Here's an x1 value  200 #x1 and y1 always changes because of movement 
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  204
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  208
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  212
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  216
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  220
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  224
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  228
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  232
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  236
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  240
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  244
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  248
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  252
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  256
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  260
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  264
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  268
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  272
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  276
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  280
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  284
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  288
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  292
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  296
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  304
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  308
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  312
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  316
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  320
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  324
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  328
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  332
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  336
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  340
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  344
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  348
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  352
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  356
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  360
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  364
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  368
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  372
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  376
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  380
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  384
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  388
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  392
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  396
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  400
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+						###FROM DOWN TO UP###
+
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  150
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  146
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  142
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  138
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  134
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  130
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  126
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  122
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  118
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  114
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  110
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  106
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  102
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  98
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  94
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  90
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  86
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  82
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  78
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  74
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  70
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  66
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  62
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  58
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  54
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  46
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  42
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  38
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  34
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  30
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  26
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  22
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  18
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  14
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  10
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  6
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  2
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -2
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -6
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -10
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -14
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -18
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -22
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -26
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -30
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -34
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -38
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -42
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -46
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+						###FROM UP TO DOWN###
+
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -46
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -42
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -38
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -34
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -30
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -26
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -22
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -18
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -14
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -10
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -6
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  -2
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  2
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  6
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  10
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  14
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  18
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  22
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  26
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  30
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  34
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  38
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  42
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  46
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+2nd ELIF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  54
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  58
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  62
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  66
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  70
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  74
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  78
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  82
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  86
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  90
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  94
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  98
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  102
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  106
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  110
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  114
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  118
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  122
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  126
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  130
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  134
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  138
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  142
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  146
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  150
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+						###FROM RIGHT TO LEFT### 
+
+Here's an x1 value  400
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  396
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  392
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  388
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  384
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  380
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  376
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  372
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  368
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  364
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  360
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  356
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  352
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  348
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  344
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  340
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  336
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  332
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  328
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  324
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  320
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  316
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  312
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  308
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  304
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  300
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st IF STATEMENT
+Here's an x1 value  296
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  292
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  288
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  284
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  280
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  276
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  272
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  268
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  264
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  260
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  256
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  252
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  248
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  244
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  240
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  236
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  232
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  228
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  224
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  220
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  216
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  212
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  208
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  204
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT
+Here's an x1 value  200
+Here's an x2 value  300
+Here's an y1 value  50
+Here's an y2 value  50
+Here's an w1 value  100
+Here's an w2 value  100
+Here's an h1 value  100
+Here's an h2 value  100
+1st ELIF STATEMENT						
+					
