@@ -1,0 +1,1 @@
+Put the file to Steam\steamapps\common\Team Fortress 2\tf\cfg
