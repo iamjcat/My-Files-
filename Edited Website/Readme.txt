@@ -1,1 +1,0 @@
-Just click on the html files. More edited files will come later on 
