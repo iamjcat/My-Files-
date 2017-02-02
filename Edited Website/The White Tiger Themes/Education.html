@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html class='themes show' lang='en'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"26e876af8d","applicationID":"3298296","transactionName":"IQlaFUAJD1xdSh1HXAcLURIdFQtfTw==","queueTime":0,"applicationTime":69,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQEPVV9XGwACXVlQDgc="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script>
+<title>The theme of Education in The White Tiger from LitCharts | The creators of SparkNotes</title>
+<link rel="canonical" href="http://www.litcharts.com/lit/the-white-tiger/themes/education" />
+<meta charset='utf-8'>
+<meta content='k-jK_WYNu0IIcRL44tTvNEcg3DTD7UcPl8pmKX2xA54' name='google-site-verification'>
+<meta content='hzk7a7SI1xuJJ05PdVIyylKe3Wa_x8CdfJIzStOkj1A' name='google-site-verification'>
+<meta content='E874522C1C89460399152B87720D9D37' name='msvalidate.01'>
+<meta content='none' name='msapplication-config'>
+<!-- Set the viewport width to device width for mobile -->
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='Get everything you need to know about Education in The White Tiger. Analysis, related quotes, theme tracking.' name='description'>
+<!-- meta data for facebook -->
+<meta content='article' property='og:type'>
+<meta content='LitCharts' property='og:site_name'>
+<meta content='The theme of Education in The White Tiger from LitCharts | The creators of SparkNotes' property='og:title'>
+<meta content='The theme of Education in The White Tiger from LitCharts | The creators of SparkNotes' property='og:description'>
+<meta content='https://d1dncoj5u3i8rh.cloudfront.net/logo-books-and-text.png' property='og:image'>
+<!-- meta data for twitter -->
+<meta content='@litcharts' property='twitter:site'>
+<meta content='@litcharts' property='twitter:creator'>
+<meta content='The theme of Education in The White Tiger from LitCharts | The creators of SparkNotes' property='twitter:card'>
+<!-- links for apple device icons -->
+<link href='https://d2gp9nmj724j45.cloudfront.net/assets/apple-icons/apple-touch-icon-57x57-precomposed-3228b4d1a8734791ad9f5e37ec65382f240a54acbf72efdc8edf694c435389cb.png' rel='apple-touch-icon-precomposed' sizes='57x57'>
+<link href='https://d2gp9nmj724j45.cloudfront.net/assets/apple-icons/apple-touch-icon-76x76-precomposed-f93c2870d1ded493fae83dd33e7abc246156a771e4c00bc65aebbce42759cc02.png' rel='apple-touch-icon-precomposed' sizes='76x76'>
+<link href='https://d2gp9nmj724j45.cloudfront.net/assets/apple-icons/apple-touch-icon-114x114-precomposed-5d729e2cce0132b666ac2f8394241f28ce6e6ce352ea778b7d252ca06d8b4d51.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+<link href='https://d2gp9nmj724j45.cloudfront.net/assets/apple-icons/apple-touch-icon-152x152-precomposed-4b1b8ae028239093683a505f7334979a0e2f30611d29108d9d25966967da5a3c.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+<!-- / TODO! either cherry pick the icons we want or actually include this in repo -->
+<link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+<link rel="stylesheet" media="screen" href="https://d2gp9nmj724j45.cloudfront.net/assets/application-a8e0d979abcf4e2aeda7592a5bc5e35164484721768066984d634808332dc12d.css" />
+
+<link rel="shortcut icon" type="image/x-icon" href="https://d2gp9nmj724j45.cloudfront.net/assets/favicon-2ac55ed14f2e2e7f9ecf175be089b8a6bf44fe0d7ef573562387c4abe315107a.ico" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Ew9rD+hUoCfA9nYK1zCev145yJC6X7M+LtEkgdyuM4OfVHjdymQ590wnGSRkmwpGtJV9lWFaKC3CmNmBrBZUyw==" />
+
+<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+mixpanel.init("e5c6c4a29cc5fb8684bf7989a0f5ecd4");</script><!-- end Mixpanel -->
+
+<script type="text/javascript">
+  mixpanel.identify('d419cac0-5675-45b1-bce2-d3354e73db91');
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+ga('create', 'UA-4931953-2', 'auto');
+ga('require', 'linkid', 'linkid.js');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+
+</head>
+<body class='default layout'>
+<nav id='menu'>
+<header>
+litcharts menu goes here
+<div><a href="/lit/the-white-tiger/chapter-1-the-first-night">Chapter 1: The First Night</a></div>
+<div><a href="/lit/the-white-tiger/chapter-2-the-second-night">Chapter 2: The Second Night</a></div>
+<div><a href="/lit/the-white-tiger/chapter-3-the-fourth-morning">Chapter 3: The Fourth Morning</a></div>
+<div><a href="/lit/the-white-tiger/chapter-4-the-fourth-night">Chapter 4: The Fourth Night</a></div>
+<div><a href="/lit/the-white-tiger/chapter-5-the-fifth-night">Chapter 5: The Fifth Night</a></div>
+<div><a href="/lit/the-white-tiger/chapter-6-the-sixth-morning">Chapter 6: The Sixth Morning</a></div>
+<div><a href="/lit/the-white-tiger/chapter-7-the-sixth-night">Chapter 7: The Sixth Night</a></div>
+<div><a href="/lit/the-white-tiger/chapter-eight-the-seventh-night">Chapter 8: The Seventh Night</a></div>
+</header>
+</nav>
+<main id='panel'>
+
+<div class='mobile-menu'>
+<div class='container-fluid'>
+<div class='row header'>
+<div class='col-xs-12'>
+<div class='controls pull-right'>
+<a class="control close-btn" href="#"><span class='glyphicon glyphicon-remove-sign'></span>
+</a></div>
+<a class="logo" href="/"><img class="icon" alt="Header icon placeholder." src="https://d2gp9nmj724j45.cloudfront.net/assets/header-icon-placeholder-42b73c9c556c858e921caa013fd25e19de2ba89f0e617252f08f869471bdd082.png" />
+<span class='text'>LitCharts</span>
+</a><div class='row book-title'>
+<div class='col-xs-12'>
+The White Tiger
+</div>
+</div>
+</div>
+</div>
+<div class='row menu-list'>
+<div class='col-xs-12'>
+<div class='book-components'>
+<div class='row component list-item'>
+<a class="tappable" href="/lit/the-white-tiger">Introduction + Context</a>
+</div>
+<div class='row component list-item'>
+<a class="tappable" href="/lit/the-white-tiger/summary">Plot Summary</a>
+</div>
+<div class='row component list-item'>
+<div class='tappable'>
+<span class='glyphicon glyphicon-chevron-right toggle'></span>
+Detailed Summary & Analysis
+</div>
+<div class='subcomponents'>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/chapter-1-the-first-night">Chapter 1: The First Night</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/chapter-2-the-second-night">Chapter 2: The Second Night</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/chapter-3-the-fourth-morning">Chapter 3: The Fourth Morning</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/chapter-4-the-fourth-night">Chapter 4: The Fourth Night</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/chapter-5-the-fifth-night">Chapter 5: The Fifth Night</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/chapter-6-the-sixth-morning">Chapter 6: The Sixth Morning</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/chapter-7-the-sixth-night">Chapter 7: The Sixth Night</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/chapter-eight-the-seventh-night">Chapter 8: The Seventh Night</a>
+</div>
+</div>
+<div class='row component list-item'>
+<div class='tappable'>
+<span class='glyphicon glyphicon-chevron-right toggle'></span>
+Themes
+</div>
+<div class='subcomponents'>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/themes">All Themes</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/themes/the-self-made-man"><i class='fa fa-circle icon theme-0-color'></i>
+The Self-Made Man
+</a><a class="subcomponent tappable" href="/lit/the-white-tiger/themes/social-breakdown-self-interest-and-corruption"><i class='fa fa-circle icon theme-1-color'></i>
+Social Breakdown, Self-Interest, and Corruption
+</a><a class="subcomponent tappable" href="/lit/the-white-tiger/themes/education"><i class='fa fa-circle icon theme-2-color'></i>
+Education
+</a><a class="subcomponent tappable" href="/lit/the-white-tiger/themes/family"><i class='fa fa-circle icon theme-3-color'></i>
+Family
+</a><a class="subcomponent tappable" href="/lit/the-white-tiger/themes/morality-and-indian-society"><i class='fa fa-circle icon theme-4-color'></i>
+Morality and Indian Society
+</a></div>
+</div>
+<div class='row component list-item'>
+<a class="tappable" href="/lit/the-white-tiger/quotes">Quotes</a>
+</div>
+<div class='row component list-item'>
+<div class='tappable'>
+<span class='glyphicon glyphicon-chevron-right toggle'></span>
+Characters
+</div>
+<div class='subcomponents'>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters">All Characters</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/balram-halwai">Balram Halwai</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/mr-ashok">Mr. Ashok</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/kusum">Kusum</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/pinky-madam">Pinky Madam</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/wen-jiabao">Wen Jiabao</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/vikram-halwai">Vikram Halwai</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/balram-s-mother">Balram’s Mother</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/kishan">Kishan</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/dharam">Dharam</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/the-stork">The Stork</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/the-mongoose">The Mongoose</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/ram-persad">Ram Persad</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/vijay">Vijay</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/great-socialist">Great Socialist</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/vitiligo-lips">Vitiligo-Lips</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/characters/ram-bahadur-the-nepali">Ram Bahadur (the Nepali)</a>
+</div>
+</div>
+<div class='row component list-item'>
+<div class='tappable'>
+<span class='glyphicon glyphicon-chevron-right toggle'></span>
+Symbols
+</div>
+<div class='subcomponents'>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/symbols">All Symbols</a>
+<a class="subcomponent tappable" href="/lit/the-white-tiger/symbols/the-white-tiger"><i class='fa fa-circle icon simbol'></i>
+The White Tiger
+</a><a class="subcomponent tappable" href="/lit/the-white-tiger/symbols/the-rooster-coop"><i class='fa fa-circle icon simbol'></i>
+The Rooster Coop
+</a><a class="subcomponent tappable" href="/lit/the-white-tiger/symbols/the-black-fort"><i class='fa fa-circle icon simbol'></i>
+The Black Fort 
+</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class='row footer'>
+<div class='col-xs-12'>
+<div class='title text-center'>Upgrade to LitCharts A<sup>+</sup></div>
+<a class="tappable mobile-upgrade-link" href="/sign-up?utm_source=mobile_menu"><div class='row list-item with-icon'>
+<div class='display-table'>
+<div class='table-row'>
+<div class='table-cell'>
+<img class="icon" src="https://d2gp9nmj724j45.cloudfront.net/assets/mobile-menu/pdf-fan-dd71f526917d6085d66d045bd94fb5b55d02a108dd45d836cbdd4abe2d4c043d.png" alt="Pdf fan dd71f526917d6085d66d045bd94fb5b55d02a108dd45d836cbdd4abe2d4c043d" />
+</div>
+<div class='table-cell text-cell'>
+<div class='text'>
+Instant downloads of all 370 LitChart PDFs
+(including <em>The White Tiger</em>).
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='row list-item with-icon'>
+<div class='display-table'>
+<div class='table-row'>
+<div class='table-cell'>
+<img class="icon" src="https://d2gp9nmj724j45.cloudfront.net/assets/mobile-menu/shakespeare-152057418b402f7d26df7d21136ca95e5f70682bbe6a0948057e9fab2873b788.png" alt="Shakespeare 152057418b402f7d26df7d21136ca95e5f70682bbe6a0948057e9fab2873b788" />
+</div>
+<div class='table-cell text-cell'>
+<div class='text'>The original play plus a side-by-side modern translation for Shakespeare's most popular plays.</div>
+</div>
+</div>
+</div>
+</div>
+</a><div class='sign-up-in text-center'>
+<a class="sign-up-in-link sign-up" href="/sign-up?utm_source=mobile_menu">sign up</a>
+|
+<a class="sign-up-in-link sign-in" href="/sign-in">sign in</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<section class='header'>
+<div class='container hidden-xs hidden-sm large'>
+<div class='row'>
+<div class='col-xs-6 branding-col'>
+<a class="logo" href="/"><img class="icon" alt="The LitCharts.com logo." src="https://d2gp9nmj724j45.cloudfront.net/assets/header-icon-placeholder-42b73c9c556c858e921caa013fd25e19de2ba89f0e617252f08f869471bdd082.png" />
+<span class='text'>LitCharts</span>
+</a><span class='tagline'>From the creators of SparkNotes, something better.</span>
+</div>
+<div class='col-xs-4 search-col'>
+<form class="search form" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class='input-group search'>
+<input autocomplete='off' class='form-control' name='query' placeholder='Search title, author, theme...' type='text'>
+<div class='input-group-addon submit'>
+<span class='glyphicon glyphicon-search'></span>
+</div>
+</div>
+</form>
+
+</div>
+<div class='col-xs-2 text-right'>
+<a class="sign-up-in-link sign-in default-header" href="/sign-in">Sign In</a>
+<a class="sign-up-in-link sign-up default-header" href="/sign-up?utm_source=header_signup">Sign Up</a>
+</div>
+</div>
+</div>
+<div class='container visible-xs visible-sm small'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='controls pull-right'>
+<a class="search" href="#"><span class='fa-stack'>
+<i class='fa fa-circle fa-stack-2x'></i>
+<i class='fa fa-search fa-stack-1x'></i>
+</span>
+</a><a class="menu" href="#"><span class='fa-stack'>
+<i class='fa fa-circle fa-stack-2x'></i>
+<i class='fa fa-bars fa-stack-1x'></i>
+</span>
+</a></div>
+<a class="logo" href="/"><img class="icon" alt="The LitCharts.com logo." src="https://d2gp9nmj724j45.cloudfront.net/assets/header-icon-placeholder-42b73c9c556c858e921caa013fd25e19de2ba89f0e617252f08f869471bdd082.png" />
+<span class='text'>LitCharts</span>
+</a></div>
+<div class='col-xs-12'>
+<form class="search form" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class='input-group search'>
+<input autocomplete='off' class='form-control' name='query' placeholder='Search title, author, theme...' type='text'>
+<div class='input-group-addon submit'>
+<span class='glyphicon glyphicon-search'></span>
+</div>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</section>
+
+<section class='yield'>
+<div class='book-component layout'>
+<div class='book-header'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='display-table'>
+<div class='table-row'>
+<div class='table-cell'>
+<h2 class='naked book-title'>The White Tiger</h2>
+<span class='book-author hidden-xs hidden-sm'>
+by
+<h3 class='naked inline'>Aravind Adiga</h3>
+</span>
+</div>
+<div class='table-cell upgrade-container hidden-xs hidden-sm'>
+<a class="btn btn-lc-red upgrade" href="/sign-up?utm_source=upgrade_to_aplus_button">Upgrade to A<sup>+</sup>
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<a class='mobile-header-promo visible-xs visible-sm' href='/sign-up?utm_source=mobile_header_promo'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12 text-center'>
+<img class="icon" src="https://d2gp9nmj724j45.cloudfront.net/assets/mobile-menu/pdf-fan-dd71f526917d6085d66d045bd94fb5b55d02a108dd45d836cbdd4abe2d4c043d.png" alt="Pdf fan dd71f526917d6085d66d045bd94fb5b55d02a108dd45d836cbdd4abe2d4c043d" />
+Tap here to download this LitChart! (PDF)
+</div>
+</div>
+</div>
+</a>
+<div class='book-nav hidden-xs hidden-sm box-shadow'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='components' data-current='themes'>
+<div class='component intro'>
+<a role="button" href="/lit/the-white-tiger">Introduction</a>
+</div>
+<div class='component plot-summary'>
+<a role="button" href="/lit/the-white-tiger/summary">Plot Summary</a>
+</div>
+<div class='component dropdown summary-sections'>
+<a class="detailed dropdown-toggle" data-toggle="dropdown" data-target="#" aria-haspopup="true" aria-expanded="false" role="button" href="/lit/the-white-tiger/chapter-1-the-first-night"><span class='text'>
+<span class='hidden-md'>Detailed</span>
+Summary<br> & Analysis
+</span>
+<span class='caret'></span>
+</a><ul aria-labelledby='.book-nav .component .detailed' class='dropdown-menu'>
+<li><a href="/lit/the-white-tiger/chapter-1-the-first-night">Chapter 1: The First Night</a></li>
+<li><a href="/lit/the-white-tiger/chapter-2-the-second-night">Chapter 2: The Second Night</a></li>
+<li><a href="/lit/the-white-tiger/chapter-3-the-fourth-morning">Chapter 3: The Fourth Morning</a></li>
+<li><a href="/lit/the-white-tiger/chapter-4-the-fourth-night">Chapter 4: The Fourth Night</a></li>
+<li><a href="/lit/the-white-tiger/chapter-5-the-fifth-night">Chapter 5: The Fifth Night</a></li>
+<li><a href="/lit/the-white-tiger/chapter-6-the-sixth-morning">Chapter 6: The Sixth Morning</a></li>
+<li><a href="/lit/the-white-tiger/chapter-7-the-sixth-night">Chapter 7: The Sixth Night</a></li>
+<li><a href="/lit/the-white-tiger/chapter-eight-the-seventh-night">Chapter 8: The Seventh Night</a></li>
+</ul>
+</div>
+<div class='component dropdown themes'>
+<a class="themes dropdown-toggle" data-toggle="dropdown" data-target="#" aria-haspopup="true" aria-expanded="false" role="button" href="/lit/the-white-tiger/themes"><span class='text'>Themes</span>
+<span class='caret'></span>
+</a><ul aria-labelledby='.book-nav .component .themes' class='dropdown-menu themes'>
+<li><a href="/lit/the-white-tiger/themes">All Themes</a></li>
+<li>
+<a href="/lit/the-white-tiger/themes/the-self-made-man"><div class='book-component-icon theme-icon small' data-code-index='0'>
+<i class='fa fa-circle theme-0-color circle'></i>
+<img alt='The Self-Made Man Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-self-made-man.small.white.desktop.png' />
+</div>
+The Self-Made Man
+</a></li>
+<li>
+<a href="/lit/the-white-tiger/themes/social-breakdown-self-interest-and-corruption"><div class='book-component-icon theme-icon small' data-code-index='1'>
+<i class='fa fa-circle theme-1-color circle'></i>
+<img alt='Social Breakdown, Self-Interest, and Corruption Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-social-breakdown-self-interest-and-corruption.small.white.desktop.png' />
+</div>
+Social Breakdown, Self-Interest, and Corruption
+</a></li>
+<li>
+<a href="/lit/the-white-tiger/themes/education"><div class='book-component-icon theme-icon small' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.small.white.desktop.png' />
+</div>
+Education
+</a></li>
+<li>
+<a href="/lit/the-white-tiger/themes/family"><div class='book-component-icon theme-icon small' data-code-index='3'>
+<i class='fa fa-circle theme-3-color circle'></i>
+<img alt='Family Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-family.small.white.desktop.png' />
+</div>
+Family
+</a></li>
+<li>
+<a href="/lit/the-white-tiger/themes/morality-and-indian-society"><div class='book-component-icon theme-icon small' data-code-index='4'>
+<i class='fa fa-circle theme-4-color circle'></i>
+<img alt='Morality and Indian Society Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-morality-and-indian-society.small.white.desktop.png' />
+</div>
+Morality and Indian Society
+</a></li>
+</ul>
+</div>
+<div class='component quotes'>
+<a role="button" href="/lit/the-white-tiger/quotes">Quotes</a>
+</div>
+<div class='component dropdown characters'>
+<a class="characters dropdown-toggle" data-toggle="dropdown" data-target="#" aria-haspopup="true" aria-expanded="false" role="button" href="/lit/the-white-tiger/characters"><span class='text'>Characters</span>
+<span class='caret'></span>
+</a><ul aria-labelledby='.book-nav .component .characters' class='dropdown-menu'>
+<li><a href="/lit/the-white-tiger/characters">All Characters</a></li>
+<li><a href="/lit/the-white-tiger/characters/balram-halwai">Balram Halwai</a></li>
+<li><a href="/lit/the-white-tiger/characters/mr-ashok">Mr. Ashok</a></li>
+<li><a href="/lit/the-white-tiger/characters/kusum">Kusum</a></li>
+<li><a href="/lit/the-white-tiger/characters/pinky-madam">Pinky Madam</a></li>
+<li><a href="/lit/the-white-tiger/characters/wen-jiabao">Wen Jiabao</a></li>
+<li><a href="/lit/the-white-tiger/characters/vikram-halwai">Vikram Halwai</a></li>
+<li><a href="/lit/the-white-tiger/characters/balram-s-mother">Balram’s Mother</a></li>
+<li><a href="/lit/the-white-tiger/characters/kishan">Kishan</a></li>
+<li><a href="/lit/the-white-tiger/characters/dharam">Dharam</a></li>
+<li><a href="/lit/the-white-tiger/characters/the-stork">The Stork</a></li>
+<li><a href="/lit/the-white-tiger/characters/the-mongoose">The Mongoose</a></li>
+<li><a href="/lit/the-white-tiger/characters/ram-persad">Ram Persad</a></li>
+<li><a href="/lit/the-white-tiger/characters/vijay">Vijay</a></li>
+<li><a href="/lit/the-white-tiger/characters/great-socialist">Great Socialist</a></li>
+<li><a href="/lit/the-white-tiger/characters/vitiligo-lips">Vitiligo-Lips</a></li>
+<li><a href="/lit/the-white-tiger/characters/ram-bahadur-the-nepali">Ram Bahadur (the Nepali)</a></li>
+</ul>
+</div>
+<div class='component dropdown simbols'>
+<a class="symbols dropdown-toggle" data-toggle="dropdown" data-target="#" aria-haspopup="true" aria-expanded="false" role="button" href="/lit/the-white-tiger/symbols"><span class='text'>Symbols</span>
+<span class='caret'></span>
+</a><ul aria-labelledby='.book-nav .component .symbols' class='dropdown-menu simbols'>
+<li><a href="/lit/the-white-tiger/symbols">All Symbols</a></li>
+<li>
+<a href="/lit/the-white-tiger/symbols/the-white-tiger"><div class='book-component-icon simbol-icon small'>
+<i class='fa fa-circle circle'></i>
+<img alt='The White Tiger Symbol Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-white-tiger.small.white.desktop.png' />
+</div>
+The White Tiger
+</a></li>
+<li>
+<a href="/lit/the-white-tiger/symbols/the-rooster-coop"><div class='book-component-icon simbol-icon small'>
+<i class='fa fa-circle circle'></i>
+<img alt='The Rooster Coop Symbol Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-rooster-coop.small.white.desktop.png' />
+</div>
+The Rooster Coop
+</a></li>
+<li>
+<a href="/lit/the-white-tiger/symbols/the-black-fort"><div class='book-component-icon simbol-icon small'>
+<i class='fa fa-circle circle'></i>
+<img alt='The Black Fort  Symbol Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-black-fort.small.white.desktop.png' />
+</div>
+The Black Fort 
+</a></li>
+</ul>
+</div>
+<div class='component chartboard'>
+<a role="button" href="/lit/the-white-tiger/chart-board-visualization">Theme Wheel</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='component-content'>
+<div class='header'>
+<div class='container'>
+<table class='header-table'>
+<tr>
+<td class='prev-col'>
+<a class="prev-next-links prev" href="/lit/the-white-tiger/themes/social-breakdown-self-interest-and-corruption"><div class='hidden-xs hidden-sm'>
+<i class='fa fa-angle-left arrow'></i>
+<div class='text'>
+<div class='tag'>Previous</div>
+<div class='title'>Social Breakdown, Self-Interest, and Corruption</div>
+</div>
+</div>
+<div class='visible-xs visible-sm mobile-arrow'>
+<span class='fa-stack'>
+<i class='fa fa-circle fa-stack-2x'></i>
+<i class='fa fa-angle-left fa-stack-1x'></i>
+</span>
+</div>
+</a></td>
+<td class='title-col'>
+<h1 class='naked'>
+<span class='component-title'>Education</span>
+<span class='component-subtitle'>
+Theme Analysis
+</span>
+
+</h1>
+</td>
+<td class='next-col'>
+<a class="prev-next-links text-right pull-right next" href="/lit/the-white-tiger/themes/family"><div class='hidden-xs hidden-sm'>
+<div class='text'>
+<div class='tag'>Next</div>
+<div class='title'>Family</div>
+</div>
+<i class='fa fa-angle-right arrow'></i>
+</div>
+<div class='visible-xs visible-sm mobile-arrow'>
+<span class='fa-stack'>
+<i class='fa fa-circle fa-stack-2x'></i>
+<i class='fa fa-angle-right fa-stack-1x'></i>
+</span>
+</div>
+</a></td>
+</tr>
+</table>
+</div>
+</div>
+<div class='content'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12 col-md-8 col-md-offset-1'>
+<div class='view'><div class='clearfix'></div>
+<div class='themes-and-colors explanation header-banner'>
+<div class='row'>
+<div class='col-xs-12 col-md-10 col-md-offset-1'>
+<div class='header'>
+<div class='text'>Themes and Colors</div>
+<a class='icon-placeholder inline-popup-trigger theme' data-code-index='0' href='/lit/the-white-tiger/themes/the-self-made-man'>
+<div class='book-component-icon theme-icon small' data-code-index='0'>
+<i class='fa fa-circle theme-0-color circle'></i>
+<img alt='The Self-Made Man Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-self-made-man.small.white.desktop.png' />
+</div>
+</a>
+<a class='icon-placeholder inline-popup-trigger theme' data-code-index='1' href='/lit/the-white-tiger/themes/social-breakdown-self-interest-and-corruption'>
+<div class='book-component-icon theme-icon small' data-code-index='1'>
+<i class='fa fa-circle theme-1-color circle'></i>
+<img alt='Social Breakdown, Self-Interest, and Corruption Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-social-breakdown-self-interest-and-corruption.small.white.desktop.png' />
+</div>
+</a>
+<a class='icon-placeholder inline-popup-trigger theme' data-code-index='2' href='/lit/the-white-tiger/themes/education'>
+<div class='book-component-icon theme-icon small' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.small.white.desktop.png' />
+</div>
+</a>
+<a class='icon-placeholder inline-popup-trigger theme' data-code-index='3' href='/lit/the-white-tiger/themes/family'>
+<div class='book-component-icon theme-icon small' data-code-index='3'>
+<i class='fa fa-circle theme-3-color circle'></i>
+<img alt='Family Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-family.small.white.desktop.png' />
+</div>
+</a>
+<a class='icon-placeholder inline-popup-trigger theme' data-code-index='4' href='/lit/the-white-tiger/themes/morality-and-indian-society'>
+<div class='book-component-icon theme-icon small' data-code-index='4'>
+<i class='fa fa-circle theme-4-color circle'></i>
+<img alt='Morality and Indian Society Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-morality-and-indian-society.small.white.desktop.png' />
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class='row subheader'>
+<div class='col-xs-12 col-md-10 col-md-offset-1'>
+LitCharts assigns a color and icon to each theme in <em>The White Tiger</em>, which you can use to track the themes throughout the work.
+</div>
+</div>
+</div>
+
+<div class='section description'>
+<div class='text readable'>
+<div class='icon-container pull-left'>
+<div class='visible-xs visible-sm'>
+<div class='book-component-icon theme-icon medium' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.medium.white.desktop.png' />
+</div>
+</div>
+<div class='hidden-xs hidden-sm'>
+<div class='book-component-icon theme-icon large' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.large.white.desktop.png' />
+</div>
+</div>
+</div>
+<p class="theme-text-3"><span class="ital">The White Tiger</span> is a story about how education, formal and otherwise, shapes individuals. Balram first receives his nickname –The White Tiger—in a classroom setting. Though over the course of the novel he attempts to embody his name by cultivating a ruthless, cunning streak and competing in Indian society, he originally earned the description for academic promise and integrity. </p><p class="theme-text-3">After being pulled out of school at an early age, Balram is left with only bits and pieces of a formal education. This leads him to refer to himself as a “half-baked” or “half-cooked” Indian. He sees his “half-cooked” education not as a weakness, but rather as one of the preconditions for an entrepreneurial spirit. He believes that having to take responsibility for one’s own education requires and builds an inventive, resourceful mind, and responds to the abrupt end of his schooling by learning what he can on the job. He claims he is not an original thinker, but rather an original listener, and pieces together an understanding of India by eavesdropping at work, transforming dead-end, menial jobs into learning opportunities. </p><p class="theme-text-3">As an adult, Balram respects traditional learning to a degree. He enjoys the proximity and physical presence of books, but also sneers at the musty, “foul taste” they leave in his mouth. Balram claims to learn more from “the road and the pavement”—from studying the constant changes of Indian society to cultivate the flexibility and adaptability he believes a self-made man should possess. In general, Balram emphasizes the importance of being attuned to one’s surroundings. As a child, he alone out of all the villagers becomes fascinated with <span class="inline-symbol">the Black Fort:</span> a beautiful old building in his town constructed by a foreign power years ago. He claims that the other villagers “remain slaves because they can’t see what is beautiful in this world,” and that by contrast, his innate ability to find interest and beauty in his environment marked him early on as deserving of a better life. </p>
+</div>
+</div>
+<div class='stretch-left-promo'>
+<div class='stretcher'>
+<div class='content'>
+<div class='pdf-promo row'>
+<div class='left-col'>
+<div class='title'>
+Get the entire <em>The White Tiger</em> LitChart as a  printable PDF.
+</div>
+<div class='subtitle hidden-xs hidden-sm hidden-md'>
+"My students can't get enough of your charts and their results have gone through the roof." -Graham S.
+</div>
+<div class='action'>
+<a class="btn btn-lc-red" href="/sign-up?focus=pdf&amp;slug=the-white-tiger&amp;utm_source=stretch_left_promo">Download it!
+</a></div>
+</div>
+<div class='right-col'>
+<div class='pdf-fan-container'>
+<img class="pdf-fan" src="https://litcharts-static.s3.amazonaws.com/pdf-fans/the-white-tiger.pdf.medium.png" alt="The white tiger.pdf.medium" />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='section themetracker'>
+<h2 class='naked title'>Education ThemeTracker</h2>
+<div class='explanation'>
+The ThemeTracker below shows where, and to what degree, the theme of Education appears in each chapter of <em>The White Tiger</em>. Click or tap on any chapter to read its Summary & Analysis.
+</div>
+<div class='key text-center'>
+<div class='item'>
+How often theme appears:
+<i class='fa fa-square icon theme-2-color theme-prevalence'></i>
+</div>
+<div class='item'>
+Chapter length:
+<i class='fa fa-square summaries icon'></i>
+</div>
+</div>
+<div class='histogram'>
+<div class='section-type visible-xs visible-sm'>Chapter</div>
+<a href='/lit/the-white-tiger/chapter-1-the-first-night' title='Chapter 1: The First Night'>
+<div class='summary-section row'>
+<div class='col-xs-3 text-right'>
+<div class='title'>
+<div class='hidden-xs hidden-sm'>Chapter 1: The Fi...</div>
+<div class='visible-xs visible-sm'>1</div>
+</div>
+</div>
+<div class='col-xs-9'>
+<div class='bucket'>
+<div class='summaries' style='width: 90.9090909090909%'>
+<div class='theme-2-background theme-prevalence' style='width: 30.0%'></div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href='/lit/the-white-tiger/chapter-2-the-second-night' title='Chapter 2: The Second Night'>
+<div class='summary-section row'>
+<div class='col-xs-3 text-right'>
+<div class='title'>
+<div class='hidden-xs hidden-sm'>Chapter 2: The Se...</div>
+<div class='visible-xs visible-sm'>2</div>
+</div>
+</div>
+<div class='col-xs-9'>
+<div class='bucket'>
+<div class='summaries' style='width: 90.9090909090909%'>
+<div class='theme-2-background theme-prevalence' style='width: 50.0%'></div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href='/lit/the-white-tiger/chapter-3-the-fourth-morning' title='Chapter 3: The Fourth Morning'>
+<div class='summary-section row'>
+<div class='col-xs-3 text-right'>
+<div class='title'>
+<div class='hidden-xs hidden-sm'>Chapter 3: The Fo...</div>
+<div class='visible-xs visible-sm'>3</div>
+</div>
+</div>
+<div class='col-xs-9'>
+<div class='bucket'>
+<div class='summaries' style='width: 54.54545454545454%'>
+<div class='theme-2-background theme-prevalence' style='width: 0.0%'></div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href='/lit/the-white-tiger/chapter-4-the-fourth-night' title='Chapter 4: The Fourth Night'>
+<div class='summary-section row'>
+<div class='col-xs-3 text-right'>
+<div class='title'>
+<div class='hidden-xs hidden-sm'>Chapter 4: The Fo...</div>
+<div class='visible-xs visible-sm'>4</div>
+</div>
+</div>
+<div class='col-xs-9'>
+<div class='bucket'>
+<div class='summaries' style='width: 63.63636363636363%'>
+<div class='theme-2-background theme-prevalence' style='width: 14.285714285714285%'></div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href='/lit/the-white-tiger/chapter-5-the-fifth-night' title='Chapter 5: The Fifth Night'>
+<div class='summary-section row'>
+<div class='col-xs-3 text-right'>
+<div class='title'>
+<div class='hidden-xs hidden-sm'>Chapter 5: The Fi...</div>
+<div class='visible-xs visible-sm'>5</div>
+</div>
+</div>
+<div class='col-xs-9'>
+<div class='bucket'>
+<div class='summaries' style='width: 36.36363636363637%'>
+<div class='theme-2-background theme-prevalence' style='width: 0.0%'></div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href='/lit/the-white-tiger/chapter-6-the-sixth-morning' title='Chapter 6: The Sixth Morning'>
+<div class='summary-section row'>
+<div class='col-xs-3 text-right'>
+<div class='title'>
+<div class='hidden-xs hidden-sm'>Chapter 6: The Si...</div>
+<div class='visible-xs visible-sm'>6</div>
+</div>
+</div>
+<div class='col-xs-9'>
+<div class='bucket'>
+<div class='summaries' style='width: 27.27272727272727%'>
+<div class='theme-2-background theme-prevalence' style='width: 33.33333333333333%'></div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href='/lit/the-white-tiger/chapter-7-the-sixth-night' title='Chapter 7: The Sixth Night'>
+<div class='summary-section row'>
+<div class='col-xs-3 text-right'>
+<div class='title'>
+<div class='hidden-xs hidden-sm'>Chapter 7: The Si...</div>
+<div class='visible-xs visible-sm'>7</div>
+</div>
+</div>
+<div class='col-xs-9'>
+<div class='bucket'>
+<div class='summaries' style='width: 100.0%'>
+<div class='theme-2-background theme-prevalence' style='width: 9.090909090909092%'></div>
+</div>
+</div>
+</div>
+</div>
+</a>
+<a href='/lit/the-white-tiger/chapter-eight-the-seventh-night' title='Chapter 8: The Seventh Night'>
+<div class='summary-section row'>
+<div class='col-xs-3 text-right'>
+<div class='title'>
+<div class='hidden-xs hidden-sm'>Chapter 8: The Se...</div>
+<div class='visible-xs visible-sm'>8</div>
+</div>
+</div>
+<div class='col-xs-9'>
+<div class='bucket'>
+<div class='summaries' style='width: 90.9090909090909%'>
+<div class='theme-2-background theme-prevalence' style='width: 40.0%'></div>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+
+</div>
+<div class='section quotes'>
+<h2 class='naked title'>Education Quotes in <em>The White Tiger</em></h2>
+<div class='explanation'>
+Below you will find the important quotes in <em>The White Tiger</em> related to the theme of Education.
+</div>
+<div class='summary-section-quotes'>
+<div class='summary-section list-group'>
+<div class='list-group-item header'>
+<span class='glyphicon glyphicon-chevron-down toggle'></span>
+<strong class='title'>
+Chapter 1: The First Night
+Quotes
+</strong>
+</div>
+<div class='quotes'>
+<div class='list-group-item quote' data-characters='["balram-halwai"]' data-summary-section='chapter-1-the-first-night' data-themes='["the-self-made-man", "education"]' id='quote-11855'>
+<div class='text readable'><p class="quote-text">“The story of my upbringing is the story of how a half-baked fellow is produced. But pay attention, Mr. Premier! Fully formed fellows, after twelve years of school and three years of university, wear nice suits, join companies, and take orders from other men for he rest of their lives. Entrepreneurs are made from half-baked clay.”</p></div>
+<div class='anonymous attrs'>
+<div class='extended-fallback'>
+<a class="quotes-explanations-promo" href="/sign-up?book=the-white-tiger&amp;focus=quotes-explanations&amp;utm_source=quotes_explanations"><img style="width: 100%;" src="https://d2gp9nmj724j45.cloudfront.net/assets/ie-quote-placeholder-white-box-27fcf9f14f424fdba7581d27dd3dde70c71e933b9790b01d628d3ff31136fe40.png" alt="Ie quote placeholder white box 27fcf9f14f424fdba7581d27dd3dde70c71e933b9790b01d628d3ff31136fe40" />
+</a></div>
+<div class='extended'>
+<div class='attr characters'>
+<strong class='tag space-right'>Related Characters:</strong>
+<span>
+<span class="faux-link">Balram Halwai</span> (speaker)
+</span>
+</div>
+<div class='attr related-themes'>
+<strong class='hidden-xs hidden-sm tag'>Related Themes:</strong>
+<div class='themes'>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='0'>
+<i class='fa fa-circle theme-0-color circle'></i>
+<img alt='The Self-Made Man Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-self-made-man.medium.white.desktop.png' />
+</div>
+</span>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.medium.white.desktop.png' />
+</div>
+</span>
+</div>
+</div>
+
+<div class='attr page-number'>
+<strong class='tag space-right'>
+Page Number<span class="hidden-xs"> and Citation</span>:
+</strong>
+<span>8-9</span>
+<button class='btn btn-blurred btn-lc btn-xs' data-path='/lit/the-white-tiger/quotes/11855/cite-this-quote'>
+Cite<span class="hidden-xs"> this Quote</span>
+</button>
+</div>
+<div class='attr explanation'>
+<strong class='tag'>Explanation and Analysis:</strong>
+<div> 
+<p>As Balram begins to recount his personal narrative, he notes that he did not receive a formal education. He defends this experience by pointing out that it actually served him advantageously.</p><p>	This passage marks the first point during which Balram seeks to recast his undesirable social position as instead a superior one. The term “half-baked” will reappear throughout the novel: Here it first might seem to be a negative descriptor, for it refers to someone who is only partially educated and thus not fully formed. Balram, however, asks the reader to ignore those preconceptions with the exhortation to Mr. Premier to “pay attention”: to read more closely the specific narrative instead of approaching it with assumptions about what makes someone successful. </p><p>	The unexpected advantages of a “half-baked fellow” stem, for Balram, from adaptability and lack of conformity. He sees those who are "fully formed" as being monotonous and incapable of critical thought, because they have been conditioned from their schooling to “take orders” and thus to exist within the hierarchy. Balram’s rhetorical move is to equate “half-baked” with “entrepreneur,” thus taking qualities that most would consider to be a fault and cast them as the very qualities that have allowed him to succeed. The novel becomes, then, not only the story of Balram's life but also an attempt to redeem a class and type of person.<br></p>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+<div class='list-group-item quote' data-characters='["the-inspector", "balram-halwai"]' data-summary-section='chapter-1-the-first-night' data-themes='["the-self-made-man", "education", "morality-and-indian-society"]' id='quote-11856'>
+<div class='text readable'><p class="quote-text">“You, young man, are an intelligent, honest, vivacious fellow in this crowd of thugs and idiots. In any jungle, what is the rarest of animals—the creature that comes along only once in a generation?”<br> “The white tiger.”<br> “That’s what you are, in <span class="ital">this </span>jungle.” </p></div>
+<div class='anonymous attrs'>
+<div class='extended-fallback'>
+<a class="quotes-explanations-promo" href="/sign-up?book=the-white-tiger&amp;focus=quotes-explanations&amp;utm_source=quotes_explanations"><img style="width: 100%;" src="https://d2gp9nmj724j45.cloudfront.net/assets/ie-quote-placeholder-red-unlock-f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17.png" alt="Ie quote placeholder red unlock f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17" />
+</a></div>
+<div class='extended'>
+<div class='attr characters'>
+<strong class='tag space-right'>Related Characters:</strong>
+<span>
+<span class="faux-link">The Inspector</span> (speaker), <span class="faux-link">Balram Halwai</span>
+</span>
+</div>
+<div class='attr'>
+<strong class='tag space-right'>Related Symbols:</strong>
+<span><span class="faux-link">The White Tiger</span></span>
+</div>
+<div class='attr related-themes'>
+<strong class='hidden-xs hidden-sm tag'>Related Themes:</strong>
+<div class='themes'>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='0'>
+<i class='fa fa-circle theme-0-color circle'></i>
+<img alt='The Self-Made Man Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-self-made-man.medium.white.desktop.png' />
+</div>
+</span>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.medium.white.desktop.png' />
+</div>
+</span>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='4'>
+<i class='fa fa-circle theme-4-color circle'></i>
+<img alt='Morality and Indian Society Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-morality-and-indian-society.medium.white.desktop.png' />
+</div>
+</span>
+</div>
+</div>
+
+<div class='attr page-number'>
+<strong class='tag space-right'>
+Page Number<span class="hidden-xs"> and Citation</span>:
+</strong>
+<span>30</span>
+<button class='btn btn-blurred btn-lc btn-xs' data-path='/lit/the-white-tiger/quotes/11856/cite-this-quote'>
+Cite<span class="hidden-xs"> this Quote</span>
+</button>
+</div>
+<div class='attr explanation'>
+<strong class='tag'>Explanation and Analysis:</strong>
+<div> 
+<p>While describing his flawed education, Balram recounts a pivotal moment in which he is promised a scholarship. His teacher called him a "white tiger," an image that he will adopt throughout the novel.	</p><p>The white tiger stands, here, for both Balram’s faculties and his moral integrity. Between the descriptors of “intelligent” and “vivacious”—which speak only to talent—the teacher uses the most pivotal one: “honest.” Myriad references are made to the unscrupulous natures of other characters throughout the novel—the “thugs and idiots”—and thus Balram’s character is particularly unique because he maintains a moral compass. Indeed, the teacher argues that this is such a unique behavior that it “comes along only once in a generation.” This singularly ethical nature in Balram gives him grounds to receive the scholarship from the teacher and seems to set him apart from society.</p><p>	Although this memory might seem very promising for Balram, the text’s use of animal imagery foreshadows how the protagonist will continue to be entrapped by social forces. The teacher may affirm that Balram is a white tiger, but he qualifies it with the phrase “in this jungle,” drawing attention to the wild and brutal environment in which Balram finds himself. Indeed, the promise of a scholarship will end unfulfilled due to the cruelty of the "animal" crime lords (The Stork, etc) who control his town. Thus even as the white tiger image marks Balram for his singularity of purpose and integrity, it also confirms that he must navigate and fight his way through a cruel, antagonistic environment in order to succeed.<br></p>
+</div>
+<div class='a-plus a-plus-btn-container'>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class='list-group-item quote' data-characters='[]' data-summary-section='chapter-1-the-first-night' data-themes='["education", "morality-and-indian-society"]' id='quote-11857'>
+<div class='text readable'><p class="quote-text">“They remain slaves because they can’t see what is beautiful in this world.”</p></div>
+<div class='anonymous attrs'>
+<div class='extended-fallback'>
+<a class="quotes-explanations-promo" href="/sign-up?book=the-white-tiger&amp;focus=quotes-explanations&amp;utm_source=quotes_explanations"><img style="width: 100%;" src="https://d2gp9nmj724j45.cloudfront.net/assets/ie-quote-placeholder-red-unlock-f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17.png" alt="Ie quote placeholder red unlock f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17" />
+</a></div>
+<div class='extended'>
+<div class='attr'>
+<strong class='tag space-right'>Related Symbols:</strong>
+<span><span class="faux-link">The Black Fort </span></span>
+</div>
+<div class='attr related-themes'>
+<strong class='hidden-xs hidden-sm tag'>Related Themes:</strong>
+<div class='themes'>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.medium.white.desktop.png' />
+</div>
+</span>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='4'>
+<i class='fa fa-circle theme-4-color circle'></i>
+<img alt='Morality and Indian Society Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-morality-and-indian-society.medium.white.desktop.png' />
+</div>
+</span>
+</div>
+</div>
+
+<div class='attr page-number'>
+<strong class='tag space-right'>
+Page Number<span class="hidden-xs"> and Citation</span>:
+</strong>
+<span>34</span>
+<button class='btn btn-blurred btn-lc btn-xs' data-path='/lit/the-white-tiger/quotes/11857/cite-this-quote'>
+Cite<span class="hidden-xs"> this Quote</span>
+</button>
+</div>
+<div class='attr explanation'>
+<strong class='tag'>Explanation and Analysis:</strong>
+<div> 
+<p>While describing the Black Fort, Balram observes that he has a unique capacity to see what is beautiful in the world. He believes that this quality sets him apart from others.</p><p>	This passage shows that Balram’s model of the world divides people into two types: Certain people are “slaves” and trapped in their narrow position, while others are emancipated entrepreneurs like Balram. We might expect these differences to be based on social or economic status, but Balram sees them to be a matter of mental emancipation: more specifically, he believes it is the ability to “see what is beautiful” that allows him to think critically and creatively. Though the outcomes of this type of thinking are not yet evident, Balram will come to use this concept – aestheticism, or the ability to see beauty – as a way to categorize and make sense of his other experiences and talents. To see the Black Fort as beautiful signifies, then, not just the ability to regard something as aesthetic from a distance—but to more broadly find significance in the world. It is this earnest belief in the meaning of the world that will motivate Balram to pursue his goals.<br></p>
+</div>
+<div class='a-plus a-plus-btn-container'>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='summary-section list-group'>
+<div class='list-group-item header'>
+<span class='glyphicon glyphicon-chevron-down toggle'></span>
+<strong class='title'>
+Chapter 2: The Second Night
+Quotes
+</strong>
+</div>
+<div class='quotes'>
+<div class='list-group-item quote' data-characters='["balram-halwai", "mr-ashok"]' data-summary-section='chapter-2-the-second-night' data-themes='["the-self-made-man", "education"]' id='quote-11858'>
+<div class='text readable'><p class="quote-text">“Many of my best ideas are, in fact, borrowed from my ex-employer or his brother or someone else whom I was driving about. (I confess, Mr. Premier: I am not an original thinker—but I am an original <span class="ital">listener.</span>)<span class="ital">”</span></p></div>
+<div class='anonymous attrs'>
+<div class='extended-fallback'>
+<a class="quotes-explanations-promo" href="/sign-up?book=the-white-tiger&amp;focus=quotes-explanations&amp;utm_source=quotes_explanations"><img style="width: 100%;" src="https://d2gp9nmj724j45.cloudfront.net/assets/ie-quote-placeholder-red-unlock-f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17.png" alt="Ie quote placeholder red unlock f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17" />
+</a></div>
+<div class='extended'>
+<div class='attr characters'>
+<strong class='tag space-right'>Related Characters:</strong>
+<span>
+<span class="faux-link">Balram Halwai</span> (speaker), <span class="faux-link">Mr. Ashok</span>
+</span>
+</div>
+<div class='attr related-themes'>
+<strong class='hidden-xs hidden-sm tag'>Related Themes:</strong>
+<div class='themes'>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='0'>
+<i class='fa fa-circle theme-0-color circle'></i>
+<img alt='The Self-Made Man Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-self-made-man.medium.white.desktop.png' />
+</div>
+</span>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.medium.white.desktop.png' />
+</div>
+</span>
+</div>
+</div>
+
+<div class='attr page-number'>
+<strong class='tag space-right'>
+Page Number<span class="hidden-xs"> and Citation</span>:
+</strong>
+<span>39</span>
+<button class='btn btn-blurred btn-lc btn-xs' data-path='/lit/the-white-tiger/quotes/11858/cite-this-quote'>
+Cite<span class="hidden-xs"> this Quote</span>
+</button>
+</div>
+<div class='attr explanation'>
+<strong class='tag'>Explanation and Analysis:</strong>
+<div> 
+<p>After describing his murder of Ashok at the end of the previous chapter, Balram begins this chapter by stating that he still feels a sense of fondness to his ex-employer. He also explains that many of his entrepreneurial conceits came from Ashok and that this borrowing technique is characteristic of what has allowed him to succeed.	</p><p>	This passage upends the preconception that entrepreneurial success is the result of entirely innovative ideas that are conceived of by a single creator. Instead of seeing the entrepreneur as a solitary genius, Balram believes that real talent lies in listening. Indeed, that one can be “an original listener” implies that listening is not a universal and passive process but rather something that can be done more or less attentively—and in a variety of different ways. The very definition of originality is thus reimagined here, with Balram seeing entrepreneurial brilliance to be a matter of recombining and manifesting the ideas of others.</p><p>	The ethics of Balram’s behaviors here become increasingly murky. Having already admitted to murder, he now divulges that he has often stolen the intellectual property of others—even of the man that he has killed. Yet Balram does not find this behavior problematic, instead seeing in it further proof of his entrepreneurial brilliance and originality. Thus this passage shows that his moral compass is based on achieving success – financial might, worldly power – rather than personal respect or fairness: For Balram the ability to correctly execute an idea is itself moral. A white tiger, after all, doesn't question itself for killing itself prey.<br></p>
+</div>
+<div class='a-plus a-plus-btn-container'>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class='list-group-item quote' data-characters='["balram-halwai"]' data-summary-section='chapter-2-the-second-night' data-themes='["education"]' id='quote-11860'>
+<div class='text readable'><p class="quote-text">“That’s the one good thing I’ll say for myself. I’ve always been a big believer in education—especially my own.”</p></div>
+<div class='anonymous attrs'>
+<div class='extended-fallback'>
+<a class="quotes-explanations-promo" href="/sign-up?book=the-white-tiger&amp;focus=quotes-explanations&amp;utm_source=quotes_explanations"><img style="width: 100%;" src="https://d2gp9nmj724j45.cloudfront.net/assets/ie-quote-placeholder-red-unlock-f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17.png" alt="Ie quote placeholder red unlock f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17" />
+</a></div>
+<div class='extended'>
+<div class='attr characters'>
+<strong class='tag space-right'>Related Characters:</strong>
+<span>
+<span class="faux-link">Balram Halwai</span> (speaker)
+</span>
+</div>
+<div class='attr related-themes'>
+<strong class='hidden-xs hidden-sm tag'>Related Themes:</strong>
+<div class='themes'>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.medium.white.desktop.png' />
+</div>
+</span>
+</div>
+</div>
+
+<div class='attr page-number'>
+<strong class='tag space-right'>
+Page Number<span class="hidden-xs"> and Citation</span>:
+</strong>
+<span>43</span>
+<button class='btn btn-blurred btn-lc btn-xs' data-path='/lit/the-white-tiger/quotes/11860/cite-this-quote'>
+Cite<span class="hidden-xs"> this Quote</span>
+</button>
+</div>
+<div class='attr explanation'>
+<strong class='tag'>Explanation and Analysis:</strong>
+<div> 
+<p>Balram begins working for a teashop in Dhanbad and recalls his earlier work at a similar locale in Laxmanghar. He would rarely pay attention to his tasks but rather focus on listening to the conversations—a process he believes aided him with his education.</p><p>	This passage clarifies the type of education that Balram finds important for an entrepreneur. Instead of succeeding in a formal schooling environment, he assimilates a broad swath of information from various customers at the tea shop. As a result, following instructions in his workplace is deemed unnecessary just as with any type of formal education. Once more, Balram here bucks socially-accepted notions of success in order to defend his unconventional behavior.</p><p>	That Balram sees his belief in education as “the one good thing I’ll say for myself” indicates that he thinks of himself as a morally culpable person, as someone who has made unscrupulous decisions and therefore one for whom not much could be said. That he is a “believer in education” seems to mark him as more ethical, as this is a laudable perspective to hold; yet when he qualifies this point with “especially my own,” Balram reaffirms his more selfish nature. His interest is ultimately not in the abstract principle of education but rather in how education serves as a means to achieve his own ends.</p>
+</div>
+<div class='a-plus a-plus-btn-container'>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class='list-group-item quote' data-characters='["balram-halwai"]' data-summary-section='chapter-2-the-second-night' data-themes='["the-self-made-man", "education"]' id='quote-11863'>
+<div class='text readable'><p class="quote-text">“I absorbed everything—that’s the amazing thing about entrepreneurs. We are like sponges—we absorb and grow.”</p></div>
+<div class='anonymous attrs'>
+<div class='extended-fallback'>
+<a class="quotes-explanations-promo" href="/sign-up?book=the-white-tiger&amp;focus=quotes-explanations&amp;utm_source=quotes_explanations"><img style="width: 100%;" src="https://d2gp9nmj724j45.cloudfront.net/assets/ie-quote-placeholder-red-unlock-f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17.png" alt="Ie quote placeholder red unlock f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17" />
+</a></div>
+<div class='extended'>
+<div class='attr characters'>
+<strong class='tag space-right'>Related Characters:</strong>
+<span>
+<span class="faux-link">Balram Halwai</span> (speaker)
+</span>
+</div>
+<div class='attr related-themes'>
+<strong class='hidden-xs hidden-sm tag'>Related Themes:</strong>
+<div class='themes'>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='0'>
+<i class='fa fa-circle theme-0-color circle'></i>
+<img alt='The Self-Made Man Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-self-made-man.medium.white.desktop.png' />
+</div>
+</span>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.medium.white.desktop.png' />
+</div>
+</span>
+</div>
+</div>
+
+<div class='attr page-number'>
+<strong class='tag space-right'>
+Page Number<span class="hidden-xs"> and Citation</span>:
+</strong>
+<span>60</span>
+<button class='btn btn-blurred btn-lc btn-xs' data-path='/lit/the-white-tiger/quotes/11863/cite-this-quote'>
+Cite<span class="hidden-xs"> this Quote</span>
+</button>
+</div>
+<div class='attr explanation'>
+<strong class='tag'>Explanation and Analysis:</strong>
+<div> 
+<p>Now a driver for the Stork’s family, Balram often finds himself in situations in which he can eavesdrop on political discussions. For instance while massaging the Stork, Balram observes that he can assimilate information and expand his entrepreneurial talents.</p><p>	This passage reiterates the importance of listening to Balram’s model of the entrepreneur. His education here, as in the tea shop, is not a matter of acquiring formal knowledge but rather of engaging with the content available to him at all times. Seeing the entrepreneurs as a class of “sponges” reiterates that they need not be brilliant innovators or actively ferocious, but rather cautious and patient—taking advantage of all the nutrients surrounding them. That this will cause Balram to “grow” implies that it is part of his transformation from a small-bellied into a large-bellied man, for he expands by assimilating the ideas of those who have already succeeded.	</p><p>Balram also uses this image to cast moments that would otherwise seem negative or subservient as instead quite positive. Though giving a foot massage would normally be a demeaning act, this activity is presented by Balram as quite desirable for him—because, by patiently performing this labor he is able to learn much more and better himself in ways than he otherwise could. Thus not only does the entrepreneurial mindset allow Balram to gain knowledge; it also lets him define his life in more favorable terms, to see present indignity as part of the hard work that will pay off in the end.<br></p>
+</div>
+<div class='a-plus a-plus-btn-container'>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='summary-section list-group'>
+<div class='list-group-item header'>
+<span class='glyphicon glyphicon-chevron-down toggle'></span>
+<strong class='title'>
+Chapter 7: The Sixth Night
+Quotes
+</strong>
+</div>
+<div class='quotes'>
+<div class='list-group-item quote' data-characters='["muslim-bookseller", "balram-halwai"]' data-summary-section='chapter-7-the-sixth-night' data-themes='["education", "morality-and-indian-society"]' id='quote-11872'>
+<div class='text readable'><p class="quote-text"><span class="ital">“You were looking for the key for years/ But the door was always open!”</span></p></div>
+<div class='anonymous attrs'>
+<div class='extended-fallback'>
+<a class="quotes-explanations-promo" href="/sign-up?book=the-white-tiger&amp;focus=quotes-explanations&amp;utm_source=quotes_explanations"><img style="width: 100%;" src="https://d2gp9nmj724j45.cloudfront.net/assets/ie-quote-placeholder-red-unlock-f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17.png" alt="Ie quote placeholder red unlock f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17" />
+</a></div>
+<div class='extended'>
+<div class='attr characters'>
+<strong class='tag space-right'>Related Characters:</strong>
+<span>
+<span class="faux-link">Muslim Bookseller</span> (speaker), <span class="faux-link">Balram Halwai</span>
+</span>
+</div>
+<div class='attr related-themes'>
+<strong class='hidden-xs hidden-sm tag'>Related Themes:</strong>
+<div class='themes'>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.medium.white.desktop.png' />
+</div>
+</span>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='4'>
+<i class='fa fa-circle theme-4-color circle'></i>
+<img alt='Morality and Indian Society Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-morality-and-indian-society.medium.white.desktop.png' />
+</div>
+</span>
+</div>
+</div>
+
+<div class='attr page-number'>
+<strong class='tag space-right'>
+Page Number<span class="hidden-xs"> and Citation</span>:
+</strong>
+<span>216</span>
+<button class='btn btn-blurred btn-lc btn-xs' data-path='/lit/the-white-tiger/quotes/11872/cite-this-quote'>
+Cite<span class="hidden-xs"> this Quote</span>
+</button>
+</div>
+<div class='attr explanation'>
+<strong class='tag'>Explanation and Analysis:</strong>
+<div> 
+<p>Balram wanders through Delhi with the bribe money from Ashok. While doing so, he hears these lines from a poem spoken by a Muslim bookseller.</p><p>	These unexpected phrases help provide Balram with the confidence he requires in order to commit the pivotal crime of the novel. He interprets them to mean that the “door” to personal and social improvement need not be opened with a mystical key—which would stand for a singular entrepreneurial idea—but simply requires him to have the courage to access the already-available options. The striking pertinence of this comment to Balram’s current situation presents the events-to-come as fated. But we could also interpret the connection as further evidence of his paranoid mindset: one that links even anecdotal and unrelated comments to his own life.</p><p>	The line of poetry also offers a very different model of Indian society than that put forward previously by Balram. Whereas earlier descriptions of the Coop have repeatedly stressed the restrictive nature of Indian society, this passage does just the opposite: it implies that there are in fact <i>no</i> restrictions and that anyone is free to move between doors with complete ease. Once more, Balram presents his success as less the result of a genius idea and more from his ability to observe and act on social patterns.<br></p>
+</div>
+<div class='a-plus a-plus-btn-container'>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='summary-section list-group'>
+<div class='list-group-item header'>
+<span class='glyphicon glyphicon-chevron-down toggle'></span>
+<strong class='title'>
+Chapter 8: The Seventh Night
+Quotes
+</strong>
+</div>
+<div class='quotes'>
+<div class='list-group-item quote' data-characters='["balram-halwai"]' data-summary-section='chapter-eight-the-seventh-night' data-themes='["the-self-made-man", "education"]' id='quote-11875'>
+<div class='text readable'><p class="quote-text">“Now, despite my amazing success story, I don’t want to lose contact with the place where I got my real education in life. The road and the pavement.”</p></div>
+<div class='anonymous attrs'>
+<div class='extended-fallback'>
+<a class="quotes-explanations-promo" href="/sign-up?book=the-white-tiger&amp;focus=quotes-explanations&amp;utm_source=quotes_explanations"><img style="width: 100%;" src="https://d2gp9nmj724j45.cloudfront.net/assets/ie-quote-placeholder-red-unlock-f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17.png" alt="Ie quote placeholder red unlock f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17" />
+</a></div>
+<div class='extended'>
+<div class='attr characters'>
+<strong class='tag space-right'>Related Characters:</strong>
+<span>
+<span class="faux-link">Balram Halwai</span> (speaker)
+</span>
+</div>
+<div class='attr related-themes'>
+<strong class='hidden-xs hidden-sm tag'>Related Themes:</strong>
+<div class='themes'>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='0'>
+<i class='fa fa-circle theme-0-color circle'></i>
+<img alt='The Self-Made Man Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-self-made-man.medium.white.desktop.png' />
+</div>
+</span>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.medium.white.desktop.png' />
+</div>
+</span>
+</div>
+</div>
+
+<div class='attr page-number'>
+<strong class='tag space-right'>
+Page Number<span class="hidden-xs"> and Citation</span>:
+</strong>
+<span>259</span>
+<button class='btn btn-blurred btn-lc btn-xs' data-path='/lit/the-white-tiger/quotes/11875/cite-this-quote'>
+Cite<span class="hidden-xs"> this Quote</span>
+</button>
+</div>
+<div class='attr explanation'>
+<strong class='tag'>Explanation and Analysis:</strong>
+<div> 
+<p>After murdering Ashok and absconding with the bribe money, Balram moves to Bangalore and uses the money to become a successful business entrepreneur. But he reminds the reader that he stays connected to average people and patterns in the city.</p><p>	This passage preempts a judgement that many readers would make of Balram’s character: that once he has succeeded in his endeavors, he would abandon the lower social caste of his past and assimilate fully into the lives of the large-bellied men. Instead, Balram explains, he continues to adhere to the unconventional “real education” that allowed him to succeed in the first place: the “original listening” to the ideas of others on the street.  Indeed, it was both the metaphorical and literal pavement that gave Balram the idea for his business, ultimately affirming the success of his technique. If earlier Balram sought to turn the drawback of being “half-baked” into a desirable quality, here he reconfirms those benefits—by expressing a continued adherence even once he has succeeded.</p><p>At the same time, Balram's concern that the reader might judge him for whether or not he would abandon the streets, when he has just described how he achieved business success through murder and theft, seems more than a little misplaced! Through the dissonance of what Balram thinks would concern us as readers and what more likely does offers, Adiga, the novelist, space to critique the Indian society that has produced Balram. As portrayed by Adiga, it is a place so focused on success and its achievement that little things like murder don't even really fit into Balram's moral calculus. Balram remains irrepressible and attractive as a character to the end of the novel. But the India that created Balram is, at the same time, witheringly critiqued by the novel. </p>
+</div>
+<div class='a-plus a-plus-btn-container'>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class='list-group-item quote' data-characters='["balram-halwai"]' data-summary-section='chapter-eight-the-seventh-night' data-themes='["the-self-made-man", "education"]' id='quote-11879'>
+<div class='text readable'><p class="quote-text">“People in this country are still waiting for the war of their freedom to come from somewhere else...That will never happen. Every man must make his own Benaras. The book of your revolution sits in the pit of your belly, young Indian. Crap it out, and read.”</p></div>
+<div class='anonymous attrs'>
+<div class='extended-fallback'>
+<a class="quotes-explanations-promo" href="/sign-up?book=the-white-tiger&amp;focus=quotes-explanations&amp;utm_source=quotes_explanations"><img style="width: 100%;" src="https://d2gp9nmj724j45.cloudfront.net/assets/ie-quote-placeholder-red-unlock-f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17.png" alt="Ie quote placeholder red unlock f00de5261d3a65ae7740ab9008efa0c2c421e9fb0173ffaff600e878fa2e7d17" />
+</a></div>
+<div class='extended'>
+<div class='attr characters'>
+<strong class='tag space-right'>Related Characters:</strong>
+<span>
+<span class="faux-link">Balram Halwai</span> (speaker)
+</span>
+</div>
+<div class='attr related-themes'>
+<strong class='hidden-xs hidden-sm tag'>Related Themes:</strong>
+<div class='themes'>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='0'>
+<i class='fa fa-circle theme-0-color circle'></i>
+<img alt='The Self-Made Man Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-self-made-man.medium.white.desktop.png' />
+</div>
+</span>
+<span>
+<div class='book-component-icon theme-icon medium' data-code-index='2'>
+<i class='fa fa-circle theme-2-color circle'></i>
+<img alt='Education Theme Icon' class='icon' onerror='this.style.visibility="hidden";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.medium.white.desktop.png' />
+</div>
+</span>
+</div>
+</div>
+
+<div class='attr page-number'>
+<strong class='tag space-right'>
+Page Number<span class="hidden-xs"> and Citation</span>:
+</strong>
+<span>261</span>
+<button class='btn btn-blurred btn-lc btn-xs' data-path='/lit/the-white-tiger/quotes/11879/cite-this-quote'>
+Cite<span class="hidden-xs"> this Quote</span>
+</button>
+</div>
+<div class='attr explanation'>
+<strong class='tag'>Explanation and Analysis:</strong>
+<div> 
+<p>	Balram’s final statements return to a broad condemnation of Indian society. He challenges others to be less passive and to recognize that they are capable of revolutionary activity if they simply take an active stand.</p><p>	This passage references and rejects a common Marxist rhetoric of revolution. In particular, Balram calls on common people to rise up against their oppressors instead of passively accepting their lot in life. His issue with “people in this country” is that they believe someone else will induce a massive society shift when in fact such a change will only ever arise from individual action. Consider, after all, the derision Balram directed toward the Great Socialist’s party, which offers a false form of that exact revolution.	</p><p>Balram also here references actual spiritual and political movements, but only to undermine them and to argue that such institutions will fail to bring about real change. “Benares” is another name for Varanasi, the spiritual capital of India and the site of many pilgrimages. A single “book of your revolution” recalls a text like the Communist Manifest from Marx. But Balram believes that the redemption one seeks in Varanasi is created internally and that a revolution’s manifest “sits in the pit of your belly”: it is a result of individual ambition—even avarice—and it is deeply personal. Thus Balram closes the novel by extrapolating his own anecdotal story to offer a model of how others in Indian society could succeed: Not by following a singular or ideological model but by crafting (crapping) their own individual revolutions.<br></p>
+</div>
+<div class='a-plus a-plus-btn-container'>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div aria-label='Cite This Page' class='lc-modal modal fade' id='cite-this-page' role='dialog' tabindex='-1'>
+<div class='modal-dialog' role='document'>
+<div class='modal-content'>
+<div class='modal-header'>
+<h4 class='modal-title'>Cite This Page</h4>
+</div>
+<div class='modal-body'>
+<div class='header'>Choose citation style:</div>
+<div class='form-group'>
+<select class='form-control'>
+<option value='mla'>MLA</option>
+<option value='chicago'>Chicago</option>
+</select>
+</div>
+<div class='form-group'>
+<div class='citation mla'>
+<div class='well'>          Scopa, Sally. "The White Tiger Themes: Education." <em>LitCharts.</em> LitCharts LLC, 17 Jun 2015. Web. 31 Jan 2017.
+</div>
+<textarea>Scopa, Sally. &quot;The White Tiger Themes: Education.&quot; LitCharts. LitCharts LLC, 17 Jun 2015. Web. 31 Jan 2017.</textarea>
+</div>
+<div class='chicago citation'>
+<div class='well'>          Scopa, Sally. "<em>The White Tiger</em> Themes: Education." LitCharts LLC, June 17, 2015. Retrieved January 31, 2017. http://example.org/lit/the-white-tiger/themes/education.
+</div>
+<textarea>Scopa, Sally. &quot;The White Tiger Themes: Education.&quot; LitCharts LLC, June 17, 2015. Retrieved January 31, 2017. http://example.org/lit/the-white-tiger/themes/education.</textarea>
+</div>
+</div>
+<div class='text-center'>
+<button class='btn btn-lc-red copy'>
+<span class='text'>Copy to Clipboard</span>
+</button>
+</div>
+</div>
+<div class='modal-footer'>
+<button class='btn btn-lc' data-dismiss='modal'>Close</button>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='clearfix'></div>
+<div class='row'>
+<div class='col-xs-6'>
+<a class="prev-next-links prev" href="/lit/the-white-tiger/themes/social-breakdown-self-interest-and-corruption"><div class='hidden-xs hidden-sm'>
+<i class='fa fa-angle-left arrow'></i>
+<div class='text'>
+<div class='tag'>Previous</div>
+<div class='title'>Social Breakdown, Self-Interest, and Corruption</div>
+</div>
+</div>
+<div class='visible-xs visible-sm'>
+<div class='arrow mobile-arrow'>
+<span class='fa-stack'>
+<i class='fa fa-circle fa-stack-2x'></i>
+<i class='fa fa-angle-left fa-stack-1x'></i>
+</span>
+</div>
+<div class='text'>
+<div class='tag'>Previous</div>
+<div class='title'>Social Breakdown, Self-Interest, and Corruption</div>
+</div>
+</div>
+</a></div>
+<div class='col-xs-6'>
+<a class="prev-next-links text-right pull-right next" href="/lit/the-white-tiger/themes/family"><div class='hidden-xs hidden-sm'>
+<div class='text'>
+<div class='tag'>Next</div>
+<div class='title'>Family</div>
+</div>
+<i class='fa fa-angle-right arrow'></i>
+</div>
+<div class='visible-xs visible-sm'>
+<div class='text'>
+<div class='tag'>Next</div>
+<div class='title'>Family</div>
+</div>
+<div class='arrow mobile-arrow'>
+<span class='fa-stack'>
+<i class='fa fa-circle fa-stack-2x'></i>
+<i class='fa fa-angle-right fa-stack-1x'></i>
+</span>
+</div>
+</div>
+</a></div>
+</div>
+<div class='cite-this-page-container'>
+<button class='cite-this-page btn btn-lg btn-lc' data-target='#cite-this-page' data-toggle='modal'>Cite This Page</button>
+</div>
+</div>
+<div class='col-md-3 hidden-xs hidden-sm'>
+<div class='right-sidebar'>
+<div class='grouping pdf' data-track-lc-event-path='/lc-events/track' id='right-sidebar-pdf-grouping'>
+<a class="naked track" href="/sign-up?book=the-white-tiger&amp;focus=pdf&amp;utm_source=right_sidebar_pdf"><div class='header'>
+Download this Chart (PDF)
+</div>
+<img class="pdf-fan" alt="The printed PDF version of the LitChart on The White Tiger" src="https://litcharts-static.s3.amazonaws.com/pdf-fans/3-page//the-white-tiger.pdf.large.png" />
+</a><div class='quote'>
+&ldquo;Would not have made it through AP Literature without the printable PDFs. They're like having in-class notes for every discussion!&rdquo;
+</div>
+<a class="btn btn-lc-red track" href="/sign-up?book=the-white-tiger&amp;focus=pdf&amp;utm_source=right_sidebar_pdf">Download!</a>
+</div>
+<div class='grouping teacher-edition' id='right-sidebar-teacher-edition-grouping'>
+<a class="naked track" href="/sign-up?book=the-white-tiger&amp;focus=teacher-edition&amp;utm_source=right_sidebar_teacher_edition"><div class='header'>
+Get the Teacher Edition
+</div>
+<img class="pdf-fan" alt="The Teacher Edition of the LitChart on The White Tiger" src="https://litcharts-static.s3.amazonaws.com/teacher-edition-promos/the-white-tiger-teacher-edition-promo.large.png" />
+</a><div class='quote'>
+&ldquo;This is absolutely THE best teacher resource I have ever purchased. My students love how organized the handouts are and enjoy tracking the themes as a class.&rdquo;
+</div>
+<a class="btn btn-lc-red track" href="/sign-up?book=the-white-tiger&amp;focus=teacher-edition&amp;utm_source=right_sidebar_teacher_edition">Get it!</a>
+</div>
+<div class='feedback-request-links'>
+<p>Which books should we add? <a href="/contact">Request one!</a></p>
+<p>How can we improve? <a href="/contact?category=feedback">Tell us!</a></p>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='lc-modal modal fade' id='inline-popup-modal' role='dialog' tabindex='-1'>
+<div class='modal-dialog modal-sm' role='document'>
+<div class='modal-content'>
+<div class='modal-header'>
+<h4 class='modal-title'>
+<span class='text'></span>
+</h4>
+</div>
+<div class='modal-body'></div>
+<div class='modal-footer'>
+<button class='btn btn-lc' data-dismiss='modal'>Close</button>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+<section class='footer'>
+<div class='container links hidden-xs hidden-sm'>
+<div class='row'>
+<div class='col-xs-12 col-xs-offset-1'>
+<div class='row'>
+<div class='col-xs-3'>
+<div class='category'>Company</div>
+<a href='/about'>About Us</a>
+<a href='/our-story-from-sparknotes-to-litcharts'>Our Story</a>
+<a href='/subscription/faq'>Subscription FAQ</a>
+</div>
+<div class='col-xs-3'>
+<div class='category'>Connect</div>
+<a href='/contact'>Contact & Help</a>
+<a href='https://www.facebook.com/litcharts' target='_blank'>Facebook</a>
+<a href='https://twitter.com/intent/user?user_id=1244857338' target='_blank'>Twitter</a>
+</div>
+<div class='col-xs-3'>
+<div class='category'>Mobile Apps</div>
+<a href='https://itunes.apple.com/US/app/id867311750?mt=8'>iOS</a>
+<a href='https://play.google.com/store/apps/details?id=com.litcharts'>Android</a>
+</div>
+<div class='col-xs-3'>
+<div class='category'>Legal</div>
+<a href='/privacy'>Privacy Policy</a>
+<a href='/terms'>Terms of Service</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='container visible-xs visible-sm'>
+<div class='row'>
+<div class='col-xs-12 text-center'>
+<a href='/'>Home</a>
+<a href='/about'>About</a>
+<a href='/our-story-from-sparknotes-to-litcharts'>Our Story</a>
+<a href='/contact'>Contact</a>
+</div>
+</div>
+</div>
+<div class='text-center copyright'>
+Copyright © 2017 All Rights Reserved
+</div>
+<div class='text-center visible-xs visible-sm'>
+<a href='/privacy'>Privacy</a>
+<a href='/terms'>Terms</a>
+</div>
+</section>
+
+</main>
+<section class='javascripts container' data-assets-prefix='/assets' data-cse-google-js-url='https://d2gp9nmj724j45.cloudfront.net/assets/cse_google-67034b1ba3553b5a574dd9f6bce26cfa1bd1040e064d3f91b29b07c513251254.js' data-gpt-js-url='https://d2gp9nmj724j45.cloudfront.net/assets/gpt-f19664d206b00c6029e6d007db9f92c07be801774c10efeb130de2ba5c4b503a.js'>
+<script src="https://d2gp9nmj724j45.cloudfront.net/assets/application-0423776f3b691b00bd532dd7e17b751b9bf9171badc198c0f4f4502079ee5c5f.js"></script>
+<script type='text/javascript'>
+LitCharts.inlineCharactersSimbols = {"characters":{"9221":{"name":"Balram Halwai","majorCharacter":true,"path":"/lit/the-white-tiger/characters/balram-halwai","description":"Born only with the name “Munna” – Boy – and by the end of the novel known as “Ashok Sharma,” Balram is the novel’s narrator and protagonist. \u003cspan class=\"ital\"\u003eThe White Tiger \u003c/span\u003eis the story of his…"},"9222":{"name":"Mr. Ashok","majorCharacter":true,"path":"/lit/the-white-tiger/characters/mr-ashok","description":"\u003cspan class=\"inline-character\"\u003eThe Stork\u003c/span\u003e’s son and \u003cspan class=\"inline-character\"\u003eBalram\u003c/span\u003e’s master. \u003cspan class=\"inline-character\"\u003eAshok\u003c/span\u003e recently returned from America and has a gentler, milder personality compared to his wealthy and entitled family members. He feels disillusioned by the widespread corruption in…"},"9223":{"name":"Kusum","majorCharacter":true,"path":"/lit/the-white-tiger/characters/kusum","description":"The matriarch of Balram’s family, his grandmother Kusum runs the household according to tough, traditional Indian family values. Primarily concerned with the family’s short-term financial solvency, Kusum removes her young relatives from school prematurely to…"},"9224":{"name":"Pinky Madam","majorCharacter":true,"path":"/lit/the-white-tiger/characters/pinky-madam","description":"Ashok’s beautiful, Americanized wife. Pinky is a demanding, critical and cruel mistress to Balram. She is unhappy in India and eager to return to the US, which puts a strain on her marriage to Ashok…"},"9225":{"name":"Wen Jiabao","majorCharacter":true,"path":"/lit/the-white-tiger/characters/wen-jiabao","description":"The Chinese Premier to whom Balram addresses his letter and narrates his life story. Jiabao is a visiting Chinese official who expresses interest in learning the secrets of Indian entrepreneurship, so he can return to…"},"9226":{"name":"Vikram Halwai","majorCharacter":true,"path":"/lit/the-white-tiger/characters/vikram-halwai","description":"Balram’s father is a poor, illiterate rickshaw driver who dies of tuberculosis early in the novel. During his life, he fights to the best of his ability to fulfill his wife’s wish that Balram be…"},"9227":{"name":"Balram’s Mother","majorCharacter":true,"path":"/lit/the-white-tiger/characters/balram-s-mother","description":"Balram’s mother dies when he is a young boy in Laxmangahr. Though she is a minor figure in the background of his life, Balram recounts that she had great ambitions for him, her favorite son…"},"9228":{"name":"Kishan","majorCharacter":true,"path":"/lit/the-white-tiger/characters/kishan","description":"Kishan is Balram’s older brother who cares for him after their father dies. Though Kishan is an influential, fatherly figure in Balram’s life, Balram laments his brother’s lack of “entrepreneurial spirit”: in other words, his…"},"9229":{"name":"Dharam","majorCharacter":true,"path":"/lit/the-white-tiger/characters/dharam","description":"Balram’s young cousin, who Kusum sends to Delhi for Balram to mentor. Dharam’s arrives at a crucial moment, complicating things just as Balram is devising his plan to murder Ashok and escape with his master’s…"},"9230":{"name":"The Stork","majorCharacter":true,"path":"/lit/the-white-tiger/characters/the-stork","description":"One of the four animal landlords of Laxmangahr, father of Mr. Ashok and Mukesh Sir. He owns the river outside of Laxmangahr, and taxes any villager who fishes there or boats across it. The bulk…"},"9231":{"name":"The Wild Boar","majorCharacter":false,"path":"/lit/the-white-tiger/characters","description":"One of the four animal landlords who owns all of the fertile agricultural land around Laxmangahr. He is known for grinning predatorily at female villagers, exposing his long, curved teeth. Ashok and Pinky lunch at his house when they return to visit Laxmangahr."},"9232":{"name":"The Buffalo","majorCharacter":false,"path":"/lit/the-white-tiger/characters","description":"The greediest of the four animal landlords, known for heavily taxing rickshaw drivers who travel on his roads."},"9233":{"name":"The Raven","majorCharacter":false,"path":"/lit/the-white-tiger/characters","description":"One of the four animal landlords, known for sexually abusing shepherds who bring their animals to graze on his land."},"9234":{"name":"The Mongoose","majorCharacter":true,"path":"/lit/the-white-tiger/characters/the-mongoose","description":"Ashok’s brother, also referred to as Mukesh Sir. Mukesh Sir suspects that Balram is dishonest from their very first meeting, and disapproves of Ashok’s lenient attitude towards his servant. Unlike Ashok who has recently returned…"},"9235":{"name":"Ram Persad","majorCharacter":true,"path":"/lit/the-white-tiger/characters/ram-persad","description":"The Stork’s “number one” family servant. Though he and Balram sleep in the same bedroom, they despise one another and compete in every aspect of their lives. When Balram first arrives, Ram Persad drives Ashok…"},"9236":{"name":"Vijay","majorCharacter":true,"path":"/lit/the-white-tiger/characters/vijay","description":"Balram’s personal hero from his hometown of Laxmangahr. Balram admires Vijay for his ambition and entrepreneurial spirit: in particular, for his ability to swiftly and completely reinvent his identity in order to rise up in…"},"9237":{"name":"Great Socialist","majorCharacter":true,"path":"/lit/the-white-tiger/characters/great-socialist","description":"The Great Socialist has dominated the political scene in the Darkness for as long as Balram can remember. While the Great Socialist presents himself as a populist leader serving the poor, he and his corrupt…"},"9238":{"name":"Mr. Krishna","majorCharacter":false,"path":"/lit/the-white-tiger/characters","description":"Balram’s corrupt schoolteacher, who gives him his name. Mr. Krishna steals the funds intended to pay for school lunches because he never receives his salary."},"9239":{"name":"Vitiligo-Lips","majorCharacter":true,"path":"/lit/the-white-tiger/characters/vitiligo-lips","description":"The driver of another wealthy businessman who lives in Ashok’s apartment complex. He has Vitiligo, a common, disfiguring skin disease that primarily afflicts India’s poor. Vitiligo-Lips takes a liking to Balram and attempts to help…"},"9240":{"name":"Ms. Uma","majorCharacter":false,"path":"/lit/the-white-tiger/characters","description":"Ashok’s former lover, who he meets again after Pinky Madam’s departure."},"9241":{"name":"Dilip","majorCharacter":false,"path":"/lit/the-white-tiger/characters","description":"A cousin of Balram and Kishan who travels with them to Dhanbad to find work."},"9242":{"name":"Ram Bahadur (the Nepali)","majorCharacter":true,"path":"/lit/the-white-tiger/characters/ram-bahadur-the-nepali","description":"A cruel Nepali servant in \u003cspan class=\"inline-character\"\u003eThe Stork’s\u003c/span\u003e household who torments \u003cspan class=\"inline-character\"\u003eBalram\u003c/span\u003e, while helping \u003cspan class=\"inline-character\"\u003eRam Persad\u003c/span\u003e conceal his Muslim identity from his employers. When Balram discovers Ram Persad’s secret and Ram Bahadur’s role in covering…"},"9243":{"name":"The Minister’s Assistant","majorCharacter":false,"path":"/lit/the-white-tiger/characters","description":"The corrupt official who convinces \u003cspan class=\"inline-character\"\u003eAshok \u003c/span\u003eto hire a Ukrainian prostitute"},"9244":{"name":"Anastasia","majorCharacter":false,"path":"/lit/the-white-tiger/characters","description":"A prostitute \u003cspan class=\"inline-character\"\u003eBalram\u003c/span\u003e hires through \u003cspan class=\"inline-character\"\u003eVitiligo-Lips\u003c/span\u003e"},"9245":{"name":"The Inspector","majorCharacter":false,"path":"/lit/the-white-tiger/characters","description":"A school inspector who calls Balram “\u003cspan class=\"inline-symbol\"\u003ea white tiger\u003c/span\u003e,” establishing Balram’s sense of himself as a special person deserving of greater things."},"9246":{"name":"Muslim Bookseller","majorCharacter":false,"path":"/lit/the-white-tiger/characters","description":"A bookseller in Old Delhi."},"9247":{"name":"Mohammad Asif","majorCharacter":false,"path":"/lit/the-white-tiger/characters","description":"\u003cspan class=\"inline-character\"\u003eBalram’s \u003c/span\u003eemployee at White Tiger Drivers, who hits and kills a cyclist. Balram uses his money to bribe his company out of any legal difficulties."}},"inlineCharacters":{"father’s":[],"father":[],"wild boar’s":[],"ram bahadur":[],"the nepali":[],"ram persad":[],"mukesh sir":[],"stork":[],"balram":[9221],"the stork":[9230],"pinky madam":[9224],"mongoose":[9234],"ashok":[9222],"pinky":[9224],"kusum":[9223],"minister’s assistant":[9243],"ashok’s":[9222],"pinky madam’s":[9224],"vitiligo lips":[9239],"dharam":[9229],"vijay":[9236],"stork’s":[9230],"muslim bookseller":[9246],"dharam’s":[9229],"great socialist’s":[9237],"kusum granny":[9223],"balram’s":[9221],"vikram halwai":[9226],"jiabao":[9225],"teacher":[9238],"school inspector":[9245],"mr. ashok":[9222],"the water buffalo":[9232],"the raven":[9233],"the wild boar":[9231],"mother":[9227],"kishan":[9228],"indian entrepreneur balram halwai":[9221],"ashok sharma":[9221],"":[],"the novel’s narrator and protagonist,":[9221],"wen jiabao":[9225]},"simbols":{"1181":{"name":"The White Tiger","path":"/lit/the-white-tiger/symbols/the-white-tiger","description":"\u003cp class=\"symbol-text\"\u003e\u003cspan class=\"inline-character\"\u003eBalram\u003c/span\u003e’s natural\nintelligence and integrity set him apart from his peers from an early age. On\r\none occasion, his academic prowess so impresses a visiting \u003cspan class=\"inline-character\"\u003eschool inspector\u003c/span\u003e that the official calls him a\r\n“White…\u003c/p\u003e","icon":"\u003cdiv class='book-component-icon simbol-icon medium'\u003e\n\u003ci class='fa fa-circle circle'\u003e\u003c/i\u003e\n\u003cimg alt='The White Tiger Symbol Icon' class='icon' onerror='this.style.visibility=\"hidden\";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-white-tiger.medium.white.desktop.png' /\u003e\n\u003c/div\u003e\n"},"1182":{"name":"The Rooster Coop","path":"/lit/the-white-tiger/symbols/the-rooster-coop","description":"\u003cp class=\"symbol-text\"\u003eThe Rooster Coop is Balram’s metaphor for describing the\noppression of India’s poor. Roosters in a coop at the market watch one another\r\nslaughtered one by one, but are unable or unwilling to rebel and…\u003c/p\u003e","icon":"\u003cdiv class='book-component-icon simbol-icon medium'\u003e\n\u003ci class='fa fa-circle circle'\u003e\u003c/i\u003e\n\u003cimg alt='The Rooster Coop Symbol Icon' class='icon' onerror='this.style.visibility=\"hidden\";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-rooster-coop.medium.white.desktop.png' /\u003e\n\u003c/div\u003e\n"},"1183":{"name":"The Black Fort ","path":"/lit/the-white-tiger/symbols/the-black-fort","description":"\u003cp class=\"symbol-text\"\u003eLooking back on his past from his luxurious office in Bangalore\nBalram imagines what the detectives and police would have found out about him\r\nhad they returned to his home village of Laxmangahr. He laughs…\u003c/p\u003e","icon":"\u003cdiv class='book-component-icon simbol-icon medium'\u003e\n\u003ci class='fa fa-circle circle'\u003e\u003c/i\u003e\n\u003cimg alt='The Black Fort  Symbol Icon' class='icon' onerror='this.style.visibility=\"hidden\";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-black-fort.medium.white.desktop.png' /\u003e\n\u003c/div\u003e\n"}},"inlineSimbols":{"white tiger":[1181],"the black fort":[1183],"":[],"black fort":[1183],"rooster coop":[1182]}};
+LitCharts.popupThemes = {"0":{"title":"The Self-Made Man","path":"/lit/the-white-tiger/themes/the-self-made-man","description":"\u003cp class=\"theme-text-1\"\u003e\u003cspan class=\"ital\"\u003eThe White Tiger \u003c/span\u003eis the story of \u003cspan class=\"inline-character\"\u003eBalram Halwai\u003c/span\u003e’s life as a self-declared “self-made entrepreneur”: a rickshaw driver’s son who climbs India’s social ladder to become a chauffer and later a successful businessman. Balram recounts his life story in a letter to visiting Chinese official \u003cspan class=\"inline-character\"\u003ePremier Jiabao\u003c/span\u003e, with…\u003c/p\u003e","icon":"\u003cdiv class='book-component-icon theme-icon medium' data-code-index='0'\u003e\n\u003ci class='fa fa-circle theme-0-color circle'\u003e\u003c/i\u003e\n\u003cimg alt='The Self-Made Man Theme Icon' class='icon' onerror='this.style.visibility=\"hidden\";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-the-self-made-man.medium.white.desktop.png' /\u003e\n\u003c/div\u003e\n"},"1":{"title":"Social Breakdown, Self-Interest, and Corruption","path":"/lit/the-white-tiger/themes/social-breakdown-self-interest-and-corruption","description":"\u003cp class=\"theme-text-2\"\u003eBalram’s rise within Indian Society takes place in the aftermath of India’s liberation from British Rule (which lasted from 1858 to 1947) and the overthrow of India’s traditional caste system. Though the caste system unjustly segregated India’s population and restricted social mobility, locking each member firmly into a single way…\u003c/p\u003e","icon":"\u003cdiv class='book-component-icon theme-icon medium' data-code-index='1'\u003e\n\u003ci class='fa fa-circle theme-1-color circle'\u003e\u003c/i\u003e\n\u003cimg alt='Social Breakdown, Self-Interest, and Corruption Theme Icon' class='icon' onerror='this.style.visibility=\"hidden\";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-social-breakdown-self-interest-and-corruption.medium.white.desktop.png' /\u003e\n\u003c/div\u003e\n"},"2":{"title":"Education","path":"/lit/the-white-tiger/themes/education","description":"\u003cp class=\"theme-text-3\"\u003e\u003cspan class=\"ital\"\u003eThe White Tiger\u003c/span\u003e is a story about how education, formal and otherwise, shapes individuals. Balram first receives his nickname –The White Tiger—in a classroom setting. Though over the course of the novel he attempts to embody his name by cultivating a ruthless, cunning streak and competing in Indian society, he…\u003c/p\u003e","icon":"\u003cdiv class='book-component-icon theme-icon medium' data-code-index='2'\u003e\n\u003ci class='fa fa-circle theme-2-color circle'\u003e\u003c/i\u003e\n\u003cimg alt='Education Theme Icon' class='icon' onerror='this.style.visibility=\"hidden\";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-education.medium.white.desktop.png' /\u003e\n\u003c/div\u003e\n"},"3":{"title":"Family","path":"/lit/the-white-tiger/themes/family","description":"\u003cp class=\"theme-text-4\"\u003eThroughout the novel, Balram describes family as a destructive and burdensome part of Indian life, one that prevents its members from pursuing individual advancement and liberty. Balram’s grandmother \u003cspan class=\"inline-character\"\u003eKusum\u003c/span\u003e embodies this negative image of family in the story. She shortsightedly pulls both Balram and his brother \u003cspan class=\"inline-character\"\u003eKishan \u003c/span\u003eout of school…\u003c/p\u003e","icon":"\u003cdiv class='book-component-icon theme-icon medium' data-code-index='3'\u003e\n\u003ci class='fa fa-circle theme-3-color circle'\u003e\u003c/i\u003e\n\u003cimg alt='Family Theme Icon' class='icon' onerror='this.style.visibility=\"hidden\";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-family.medium.white.desktop.png' /\u003e\n\u003c/div\u003e\n"},"4":{"title":"Morality and Indian Society","path":"/lit/the-white-tiger/themes/morality-and-indian-society","description":"\u003cp class=\"theme-text-5\"\u003e\u003cspan class=\"ital\"\u003eThe White Tiger\u003c/span\u003e portrays an India that has not only lost its traditional social structure, but also outgrown a conventional moral framework. Balram’s description of the Light India versus the Dark India in the novel, which subverts usual associations of “Light” with virtue, and “Darkness” with immorality, reflects this upset…\u003c/p\u003e","icon":"\u003cdiv class='book-component-icon theme-icon medium' data-code-index='4'\u003e\n\u003ci class='fa fa-circle theme-4-color circle'\u003e\u003c/i\u003e\n\u003cimg alt='Morality and Indian Society Theme Icon' class='icon' onerror='this.style.visibility=\"hidden\";' src='https://litcharts-static.s3.amazonaws.com/icons/the-white-tiger-morality-and-indian-society.medium.white.desktop.png' /\u003e\n\u003c/div\u003e\n"}};
+LitCharts.ads.pdfPromo = "<div class=\'stretch-left-promo\'>\n<div class=\'stretcher\'>\n<div class=\'content\'>\n<div class=\'pdf-promo row\'>\n<div class=\'left-col\'>\n<div class=\'title\'>\nGet the entire <em>The White Tiger<\/em> LitChart as a  printable PDF.\n<\/div>\n<div class=\'subtitle hidden-xs hidden-sm hidden-md\'>\n\"My students can\'t get enough of your charts and their results have gone through the roof.\" -Graham S.\n<\/div>\n<div class=\'action\'>\n<a class=\"btn btn-lc-red\" href=\"/sign-up?focus=pdf&amp;slug=the-white-tiger&amp;utm_source=stretch_left_promo\">Download it!\n<\/a><\/div>\n<\/div>\n<div class=\'right-col\'>\n<div class=\'pdf-fan-container\'>\n<img class=\"pdf-fan\" src=\"https://litcharts-static.s3.amazonaws.com/pdf-fans/the-white-tiger.pdf.medium.png\" alt=\"The white tiger.pdf.medium\" />\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n";
+</script>
+
+</section>
+<link href='//fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+</body>
+</html>
+
